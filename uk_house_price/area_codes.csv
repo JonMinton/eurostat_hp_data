@@ -1,0 +1,442 @@
+RegionName,first_three,n
+Aberdeenshire,S12,172
+Adur,E07,280
+Allerdale,E07,280
+Amber Valley,E07,280
+Angus,S12,172
+Antrim and Newtownabbey,N09,160
+Ards and North Down,N09,160
+Argyll and Bute,S12,172
+Armagh City Banbridge and Craigavon,N09,160
+Arun,E07,280
+Ashfield,E07,280
+Ashford,E07,280
+Aylesbury Vale,E07,280
+Babergh,E07,280
+Barking and Dagenham,E09,280
+Barnet,E09,280
+Barnsley,E08,280
+Barrow-in-Furness,E07,280
+Basildon,E07,280
+Basingstoke and Deane,E07,280
+Bassetlaw,E07,280
+Bath and North East Somerset,E06,280
+Bedford,E06,280
+Belfast,N09,160
+Bexley,E09,280
+Birmingham,E08,280
+Blaby,E07,280
+Blackburn with Darwen,E06,280
+Blackpool,E06,280
+Blaenau Gwent,W06,280
+Bolsover,E07,280
+Bolton,E08,280
+Boston,E07,280
+Bournemouth,E06,280
+Bracknell Forest,E06,280
+Bradford,E08,280
+Braintree,E07,280
+Breckland,E07,280
+Brent,E09,280
+Brentwood,E07,280
+Bridgend,W06,280
+Brighton and Hove,E06,280
+Broadland,E07,280
+Bromley,E09,280
+Bromsgrove,E07,280
+Broxbourne,E07,280
+Broxtowe,E07,280
+Buckinghamshire,E10,280
+Burnley,E07,280
+Bury,E08,280
+Caerphilly,W06,280
+Calderdale,E08,280
+Cambridge,E07,280
+Cambridgeshire,E10,280
+Camden,E09,280
+Cannock Chase,E07,280
+Canterbury,E07,280
+Cardiff,W06,280
+Carlisle,E07,280
+Carmarthenshire,W06,280
+Castle Point,E07,280
+Causeway Coast and Glens,N09,160
+Central Bedfordshire,E06,280
+Ceredigion,W06,280
+Charnwood,E07,280
+Chelmsford,E07,280
+Cheltenham,E07,280
+Cherwell,E07,280
+Cheshire East,E06,280
+Cheshire West and Chester,E06,280
+Chesterfield,E07,280
+Chichester,E07,280
+Chiltern,E07,280
+Chorley,E07,280
+Christchurch,E07,280
+City of Aberdeen,S12,172
+City of Bristol,E06,280
+City of Derby,E06,280
+City of Dundee,S12,172
+City of Edinburgh,S12,172
+City of Glasgow,S12,172
+City of Kingston upon Hull,E06,280
+City of London,E09,280
+City of Nottingham,E06,280
+City of Peterborough,E06,280
+City of Plymouth,E06,280
+City of Westminster,E09,280
+Clackmannanshire,S12,172
+Colchester,E07,280
+Conwy,W06,280
+Copeland,E07,280
+Corby,E07,280
+Cornwall,E06,280
+Cotswold,E07,280
+County Durham,E06,280
+Coventry,E08,280
+Craven,E07,280
+Crawley,E07,280
+Croydon,E09,280
+Cumbria,E10,280
+Dacorum,E07,280
+Darlington,E06,280
+Dartford,E07,280
+Daventry,E07,280
+Denbighshire,W06,280
+Derbyshire,E10,280
+Derbyshire Dales,E07,280
+Derry City and Strabane,N09,160
+Devon,E10,280
+Doncaster,E08,280
+Dorset,E10,280
+Dover,E07,280
+Dudley,E08,280
+Dumfries and Galloway,S12,172
+Ealing,E09,280
+East Ayrshire,S12,172
+East Cambridgeshire,E07,280
+East Devon,E07,280
+East Dorset,E07,280
+East Dunbartonshire,S12,172
+East Hampshire,E07,280
+East Hertfordshire,E07,280
+East Lindsey,E07,280
+East Lothian,S12,172
+East Midlands,E12,601
+East Northamptonshire,E07,280
+East of England,E12,313
+East Renfrewshire,S12,172
+East Riding of Yorkshire,E06,280
+East Staffordshire,E07,280
+East Sussex,E10,280
+Eastbourne,E07,280
+Eastleigh,E07,280
+Eden,E07,280
+Elmbridge,E07,280
+Enfield,E09,280
+England,E92,601
+England and Wales,K04,280
+Epping Forest,E07,280
+Epsom and Ewell,E07,280
+Erewash,E07,280
+Essex,E10,280
+Exeter,E07,280
+Falkirk,S12,172
+Fareham,E07,280
+Fenland,E07,280
+Fermanagh and Omagh,N09,160
+Fife,S12,172
+Flintshire,W06,280
+Forest Heath,E07,280
+Forest of Dean,E07,280
+Fylde,E07,280
+Gateshead,E08,280
+Gedling,E07,280
+Gloucester,E07,280
+Gloucestershire,E10,280
+Gosport,E07,280
+Gravesham,E07,280
+Great Britain,K03,172
+Great Yarmouth,E07,280
+Greater Manchester,E11,280
+Greenwich,E09,280
+Guildford,E07,280
+Gwynedd,W06,280
+Hackney,E09,280
+Halton,E06,280
+Hambleton,E07,280
+Hammersmith and Fulham,E09,280
+Hampshire,E10,280
+Harborough,E07,280
+Haringey,E09,280
+Harlow,E07,280
+Harrogate,E07,280
+Harrow,E09,280
+Hart,E07,280
+Hartlepool,E06,280
+Hastings,E07,280
+Havant,E07,280
+Havering,E09,280
+Herefordshire,E06,280
+Hertfordshire,E10,280
+Hertsmere,E07,280
+High Peak,E07,280
+Highland,S12,172
+Hillingdon,E09,280
+Hinckley and Bosworth,E07,280
+Horsham,E07,280
+Hounslow,E09,280
+Huntingdonshire,E07,280
+Hyndburn,E07,280
+Inner London,E13,280
+Inverclyde,S12,172
+Ipswich,E07,280
+Isle of Anglesey,W06,280
+Isle of Wight,E06,280
+Islington,E09,280
+Kensington And Chelsea,E09,280
+Kent,E10,280
+Kettering,E07,280
+King's Lynn and West Norfolk,E07,280
+Kingston upon Thames,E09,280
+Kirklees,E08,280
+Knowsley,E08,280
+Lambeth,E09,280
+Lancashire,E10,280
+Lancaster,E07,280
+Leeds,E08,280
+Leicester,E06,280
+Leicestershire,E10,280
+Lewes,E07,280
+Lewisham,E09,280
+Lichfield,E07,280
+Lincoln,E07,280
+Lincolnshire,E10,280
+Lisburn and Castlereagh,N09,160
+Liverpool,E08,280
+London,E12,601
+Luton,E06,280
+Maidstone,E07,280
+Maldon,E07,280
+Malvern Hills,E07,280
+Manchester,E08,280
+Mansfield,E07,280
+Medway,E06,280
+Melton,E07,280
+Mendip,E07,280
+Merseyside,E11,280
+Merthyr Tydfil,W06,280
+Merton,E09,280
+Mid and East Antrim,N09,160
+Mid Devon,E07,280
+Mid Suffolk,E07,280
+Mid Sussex,E07,280
+Mid Ulster,N09,160
+Middlesbrough,E06,280
+Midlothian,S12,172
+Milton Keynes,E06,280
+Mole Valley,E07,280
+Monmouthshire,W06,280
+Moray,S12,172
+Na h-Eileanan Siar,S12,172
+Neath Port Talbot,W06,280
+New Forest,E07,280
+Newark and Sherwood,E07,280
+Newcastle-under-Lyme,E07,280
+Newcastle upon Tyne,E08,280
+Newham,E09,280
+Newport,W06,280
+Newry Mourne and Down,N09,160
+Norfolk,E10,280
+North Ayrshire,S12,172
+North Devon,E07,280
+North Dorset,E07,280
+North East,E12,313
+North East Derbyshire,E07,280
+North East Lincolnshire,E06,280
+North Hertfordshire,E07,280
+North Kesteven,E07,280
+North Lanarkshire,S12,172
+North Lincolnshire,E06,280
+North Norfolk,E07,280
+North Somerset,E06,280
+North Tyneside,E08,280
+North Warwickshire,E07,280
+North West,E12,280
+North West Leicestershire,E07,280
+North Yorkshire,E10,280
+Northampton,E07,280
+Northamptonshire,E10,280
+Northern Ireland,N92,601
+Northumberland,E06,280
+Norwich,E07,280
+Nottinghamshire,E10,280
+Nuneaton and Bedworth,E07,280
+Oadby and Wigston,E07,280
+Oldham,E08,280
+Orkney Islands,S12,172
+Outer London,E13,280
+Oxford,E07,280
+Oxfordshire,E10,280
+Pembrokeshire,W06,280
+Pendle,E07,280
+Perth and Kinross,S12,172
+Poole,E06,280
+Portsmouth,E06,280
+Powys,W06,280
+Preston,E07,280
+Purbeck,E07,280
+Reading,E06,280
+Redbridge,E09,280
+Redcar and Cleveland,E06,280
+Redditch,E07,280
+Reigate and Banstead,E07,280
+Renfrewshire,S12,172
+Rhondda Cynon Taf,W06,280
+Ribble Valley,E07,280
+Richmond upon Thames,E09,280
+Richmondshire,E07,280
+Rochdale,E08,280
+Rochford,E07,280
+Rossendale,E07,280
+Rother,E07,280
+Rotherham,E08,280
+Rugby,E07,280
+Runnymede,E07,280
+Rushcliffe,E07,280
+Rushmoor,E07,280
+Rutland,E06,280
+Ryedale,E07,280
+Salford,E08,280
+Sandwell,E08,280
+Scarborough,E07,280
+Scotland,S92,601
+Scottish Borders,S12,172
+Sedgemoor,E07,280
+Sefton,E08,280
+Selby,E07,280
+Sevenoaks,E07,280
+Sheffield,E08,280
+Shepway,E07,280
+Shetland Islands,S12,172
+Shropshire,E06,280
+Slough,E06,280
+Solihull,E08,280
+Somerset,E10,280
+South Ayrshire,S12,172
+South Bucks,E07,280
+South Cambridgeshire,E07,280
+South Derbyshire,E07,280
+South East,E12,313
+South Gloucestershire,E06,280
+South Hams,E07,280
+South Holland,E07,280
+South Kesteven,E07,280
+South Lakeland,E07,280
+South Lanarkshire,S12,172
+South Norfolk,E07,280
+South Northamptonshire,E07,280
+South Oxfordshire,E07,280
+South Ribble,E07,280
+South Somerset,E07,280
+South Staffordshire,E07,280
+South Tyneside,E08,280
+South West,E12,601
+South Yorkshire,E11,280
+Southampton,E06,280
+Southend-on-Sea,E06,280
+Southwark,E09,280
+Spelthorne,E07,280
+St Albans,E07,280
+St Edmundsbury,E07,280
+St Helens,E08,280
+Stafford,E07,280
+Staffordshire,E10,280
+Staffordshire Moorlands,E07,280
+Stevenage,E07,280
+Stirling,S12,172
+Stockport,E08,280
+Stockton-on-Tees,E06,280
+Stoke-on-Trent,E06,280
+Stratford-on-Avon,E07,280
+Stroud,E07,280
+Suffolk,E10,280
+Suffolk Coastal,E07,280
+Sunderland,E08,280
+Surrey,E10,280
+Surrey Heath,E07,280
+Sutton,E09,280
+Swale,E07,280
+Swansea,W06,280
+Swindon,E06,280
+Tameside,E08,280
+Tamworth,E07,280
+Tandridge,E07,280
+Taunton Deane,E07,280
+Teignbridge,E07,280
+Telford and Wrekin,E06,280
+Tendring,E07,280
+Test Valley,E07,280
+Tewkesbury,E07,280
+Thanet,E07,280
+Three Rivers,E07,280
+Thurrock,E06,280
+Tonbridge and Malling,E07,280
+Torbay,E06,280
+Torfaen,W06,280
+Torridge,E07,280
+Tower Hamlets,E09,280
+Trafford,E08,280
+Tunbridge Wells,E07,280
+Tyne and Wear,E11,280
+United Kingdom,K02,601
+Uttlesford,E07,280
+Vale of Glamorgan,W06,280
+Vale of White Horse,E07,280
+Wakefield,E08,280
+Wales,W92,601
+Walsall,E08,280
+Waltham Forest,E09,280
+Wandsworth,E09,280
+Warrington,E06,280
+Warwick,E07,280
+Warwickshire,E10,280
+Watford,E07,280
+Waveney,E07,280
+Waverley,E07,280
+Wealden,E07,280
+Wellingborough,E07,280
+Welwyn Hatfield,E07,280
+West Berkshire,E06,280
+West Devon,E07,280
+West Dorset,E07,280
+West Dunbartonshire,S12,172
+West Lancashire,E07,280
+West Lindsey,E07,280
+West Lothian,S12,172
+West Midlands,E11,280
+West Midlands Region,E12,601
+West Oxfordshire,E07,280
+West Somerset,E07,280
+West Sussex,E10,280
+West Yorkshire,E11,280
+Weymouth and Portland,E07,280
+Wigan,E08,280
+Wiltshire,E06,280
+Winchester,E07,280
+Windsor and Maidenhead,E06,280
+Wirral,E08,280
+Woking,E07,280
+Wokingham,E06,280
+Wolverhampton,E08,280
+Worcester,E07,280
+Worcestershire,E10,280
+Worthing,E07,280
+Wrexham,W06,280
+Wychavon,E07,280
+Wycombe,E07,280
+Wyre,E07,280
+Wyre Forest,E07,280
+York,E06,280
+Yorkshire and The Humber,E12,601
