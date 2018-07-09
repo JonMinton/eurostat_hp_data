@@ -31,7 +31,14 @@ Get info on area codes
  dta_uk %>% 
   mutate(first_three = str_extract(AreaCode, "^[A-Z][0-9]{2}")) %>% 
   group_by(RegionName, first_three) %>% 
-  tally() #%>% #write_csv("uk_house_price/area_codes.csv")
+  mutate(date = lubridate::dmy(Date)) %>% 
+  summarise(
+    n_observations = length(date),
+    first_date = min(date),
+    last_date  = max(date),
+    num_dates  = length(unique(date))
+  ) %>% ungroup() %>% 
+  write_csv("uk_house_price/area_codes.csv")
 
 ```
 
