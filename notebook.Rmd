@@ -1,8 +1,7 @@
 ---
 title: "Exploring Eurostat House Price Data"
-output:
-  html_document:
-    df_print: paged
+output: html_notebook
+  
 ---
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
@@ -21,11 +20,61 @@ Data:
 * UK house prices
 
 
-```{r}
-plot(cars)
+```{r load_eurostat}
+require(eurostat)
+
 ```
 
+Search for house price data
+
+
 ```{r}
+search_eurostat("price")
+
+```
+
+ House price indicator is `ei_hppi_q`. Let's get this 
+ 
+```{r}
+ euro_hp <- 
+  get_eurostat("ei_hppi_q")
+ 
+```
+Explore it 
+
+```{r}
+euro_hp %>% 
+  filter(unit == "I15_NSA") %>% 
+  ggplot(aes(x = time, y = values, group = geo)) + 
+  geom_line()
+
+euro_hp %>% 
+  filter(unit == "I15_NSA") %>% 
+  ggplot(aes(x = time, y = values)) + 
+  geom_line() + 
+  facet_wrap(~geo)
+
+
+
+euro_hp %>% 
+  filter(unit == "I15_NSA", !(geo %in% c("EU", "EU28"))) %>% 
+  left_join(
+    euro_hp %>% 
+    filter(unit == "I15_NSA", (geo == "EU28")) %>% 
+    select(time, comparator = values)
+  ) %>% 
+  ggplot(aes(x = time)) + 
+  geom_line(aes(y = values)) + 
+  geom_line(aes(y = comparator), linetype = "dashed") + 
+  facet_wrap(~geo) 
+  
+
+  
+
+```
+
+
+```{r, cache = T}
 require(tidyverse)
 
 dta_uk <- 
@@ -34,7 +83,7 @@ dta_uk <-
 ```
 
 
-Get info on area codes
+Get info on area codes: 
 
 
 ```{r}
@@ -64,7 +113,20 @@ tmp %>%
   geom_line(aes(x = date, y = AveragePrice), size = 2,
             data = tmp %>% filter(RegionName == "Inner London"),
             inherit.aes = F) + 
-  scale_y_log10() 
-
+  scale_y_log10(label = scales::comma,
+                breaks = c(1000, 2000, 5000, 10000, 20000, 50000, 100000, 200000, 500000)) +
+  labs(
+    title = "House price by region",
+    x = "Year",
+    y = "Average House Price",
+    colour = "Region\n(Black is Inner London)",
+    caption = "Source: UK government Land Registry"
+    
+  ) + 
+  scale_x_date(
+    date_breaks = "5 years",
+    date_labels = "%Y"
+  ) + 
+  geom_vline(xintercept = as.numeric(as.Date("2008-01-01")), linetype = "dashed")
 
 ```
